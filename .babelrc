@@ -1,0 +1,15 @@
+{
+  "compact": false,
+  "presets": [
+    "react-native"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    ["module-resolver", {
+      "root": ["./modules"],
+      "alias": {
+        "app": "./modules"
+      }
+    }
+  ]]
+}
